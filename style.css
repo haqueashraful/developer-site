@@ -6,11 +6,11 @@
 
 /* shared item */
 .btn-primary {
-    width: 150px;
-    height: 64px;
+    width: 140px;
+    height: 50px;
     background-color: #FD6E0A;
     color: white;
-    padding: 18px 35px;
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     color: #FFF;
@@ -41,13 +41,14 @@ nav ul{
 
 .nav-item {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 40px;
 }
 header{
-    background-image: url("images/hardy.png"), url("images/developer.png");
+    background-image: url("images/header_bg.png"), url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: right bottom, top left;
+    background-position: bottom right, top left;
     height: 850px;
     /* width: 1200px; */
     background-color: #FFF8F3;
