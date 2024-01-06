@@ -1,21 +1,22 @@
 * {
+    margin: 0;
     padding: 0;
-    font-family: "Open-Sans";
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* shared item */
 .btn-primary {
-    width: 140px;
-    height: 50px;
+    width: 150px;
+    height: 64px;
     background-color: #FD6E0A;
     color: white;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
+    text-align: center;
 }
 
 /* header item style */
@@ -24,32 +25,96 @@
     font-size: 45px;
     font-weight: 800;
 }
-.m-r{
-    color: #FD6E0A;
-font-size: 45px;
-font-weight: 800;
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
+.m-r {
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
+}
+
 nav {
+    padding: 50px 240px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-nav ul{
+
+nav ul {
     text-decoration: none;
     list-style: none;
+}
+nav li{
+font-size: 20px;
+font-weight: 400;
 }
 
 .nav-item {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
 }
-header{
+
+header {
     background-image: url("images/header_bg.png"), url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-    height: 850px;
-    /* width: 1200px; */
+    background-position: bottom right, 50px center;
+    /* height: 830px; */
     background-color: #FFF8F3;
+}
+
+.banner-box {
+    width: 585px;
+height: 265px;
+    margin-left: 240px;
+    margin-bottom: 150px;
+    /* margin-left: ; */
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-box h4{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+}
+.banner-box h2{
+    color: #181818;
+font-size: 85px;
+font-weight: 700;
+margin: 20px 0;
+}
+.banner-box p{
+    color: #757575;
+    margin-bottom: 25px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.banner-img{
+width: 584px;
+height: 676px;
+    margin-right: 20px;
+    padding-bottom: 0;
+}
+.banner-btn{
+    padding: 18px 17px;
+    width: 200px;
+    height: 64px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
