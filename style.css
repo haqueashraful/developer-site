@@ -5,6 +5,9 @@
 }
 
 /* shared item */
+i{
+    margin-right: 8px;
+}
 .btn-primary {
     width: 150px;
     height: 64px;
